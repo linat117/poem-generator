@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
+   <link rel="stylesheet" href="style.css"/>
     <title>AI poem generator</title>
   </head>
   <body>
@@ -14,14 +14,15 @@
       <form>
         <input
           type="text"
-          placeholder="Enter the topic of the French poem"
+          placeholder="Enter the topic of the poem"
           autofocus
           required
           autocomplete="off"
+          class="instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button" />
       </form>
-      <div>
+      <div class="poem">
    Nature's first green is gold,</br>
 Her hardest hue to hold.</br>
 Her early leaf's a flower;</br>
